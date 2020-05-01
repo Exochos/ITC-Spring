@@ -1,13 +1,12 @@
+from django.contrib import admin
 from django.db import models
-from django.contrib.auth.models import User
+from .models import Meeting
+from .models import Meeting_Minutes
+from .models import Resources
+from .models import Event
 
-class ProductType(models.Model):
-    typename=models.CharField(max_length=255)
-    typedescription=models.CharField(max_length=255, null=True, blank=True)
 
-    def __str__(self):
-        return self.typename
-    
-    class Meta:
-        db_table='producttype'
-        verbose_name_plural='producttypes'
+admin.site.register(Meeting)
+admin.site.register(Meeting_Minutes)
+admin.site.register(Resources)
+admin.site.register(Event)
