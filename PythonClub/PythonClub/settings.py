@@ -25,7 +25,7 @@ SECRET_KEY = 'w7ed9oifw1r##!v)r^ilqqp4f9l2-805h(_yjbb(gi+wp%0!57'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["jeremyward.me"]
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 
 # Application definition

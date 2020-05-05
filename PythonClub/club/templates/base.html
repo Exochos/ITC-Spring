@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    </style>
     <head>
         <title>Python Club</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -9,7 +10,7 @@
        
     </head>
     <body>
-        <div class='jumbotron' style="background-color: Black; color: white;">
+        <div class='jumbotron' style="background-color: Black; color: white; img=">
             <h1>Python Club</h1>
         </div>
         <nav class="navbar navbar-default">
@@ -17,9 +18,12 @@
                 <div class="navbar-header">
                 <a class="navbar-brand" href="{% url 'index' %}">Python Club</a>
                 </div>
-                <ul class="nav navbar-nav">
-                   
-               
+                    <ul class="nav navbar-nav"><li><a href="{% url 'meeting' %}">Meeting</a></li>
+                    <ul class="nav navbar-nav"><li><a href="{% url 'resources' %}">Resources</a></li>
+                     
+                                 
+                    </ul>
+                                 
                 </ul>
                 </div>
                 </nav>

@@ -3,7 +3,8 @@ from . import views
 
 urlpatterns=[
     path('', views.index, name='index'),
-#    path('club/', include('club.urls')),
+    path('gettypes/', views.gettypes, name='meeting'),
+    path('getresources/', views.getresources, name='resources'),
 ]
 
 

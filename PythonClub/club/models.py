@@ -5,8 +5,8 @@ from django.contrib.auth.models import User
 #Making a meeting model with the relevent fields.
 class Meeting(models.Model):
 	meeting_title = models.CharField(max_length=250)
-	meeting_date = models.CharField(max_length=250)
-	meeting_time = models.CharField(max_length=250)
+	meeting_date = models.DateField()
+	meeting_time = models.TimeField()
 	meeting_location = models.CharField(max_length=250)
 	meeting_agenda = models.CharField(max_length=250)
 	def _str_(self):
@@ -28,8 +28,8 @@ class  Meeting_Minutes(models.Model):
 class Resources(models.Model):
         resource_name = models.CharField(max_length=250)
         resource_type = models.CharField(max_length=250)
-        URL = models.CharField(max_length=250)
-        date_entered = models.CharField(max_length=250)
+        URL = models.URLField(max_length=250)
+        date_entered = models.DateField()
         user_id = models.ManyToManyField(User)
         description = models.CharField(max_length = 500)
         def _str_(self):
@@ -41,7 +41,7 @@ class Resources(models.Model):
 class Event(models.Model):
         event_title = models.CharField(max_length=250)
         location = models.CharField(max_length=250)
-        date_time = models.CharField(max_length=250)
+        date_time = models.DateTimeField(max_length=250)
         user_id = models.ForeignKey(User, on_delete = models.DO_NOTHING)
         description = models.CharField(max_length=250)
         def _str_(self):
