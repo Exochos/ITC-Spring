@@ -9,6 +9,7 @@ class Meeting(models.Model):
 	meeting_time = models.TimeField()
 	meeting_location = models.CharField(max_length=250)
 	meeting_agenda = models.CharField(max_length=250)
+	meeting_id = models.IntegerField(primary_key=True)
 	def _str_(self):
 		return self.name
 	class Meta:
@@ -49,5 +50,3 @@ class Event(models.Model):
         class Meta:
                 db_table = 'event'
                 verbose_name_plural = 'event'
-
-
