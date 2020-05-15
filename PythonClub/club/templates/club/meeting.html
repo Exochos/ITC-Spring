@@ -13,7 +13,7 @@
 
  {% for m in meeting %}
    <tr>
-      <td> <a href="{% url 'club/mdetails' id=3 %"> 
+      <td> <a href="{% url 'meeting_details' id=m.meeting_id %}"> 
            {{ m.meeting_title }}</a></td>      
       <td> {{ m.meeting_date     }} </td>
       <td> {{ m.meeting_time     }} </td>

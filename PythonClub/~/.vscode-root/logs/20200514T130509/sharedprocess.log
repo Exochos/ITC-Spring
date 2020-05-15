@@ -1,0 +1,15 @@
+[2020-05-14 13:05:14.392] [sharedprocess] [info] main {"machineId":"163436b1087a0192c244d2aadba7032ae48c751661b11e3043a9f265b2715d16","windowId":2}
+[2020-05-14 13:05:14.534] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/~/.vscode-root/User/snippets'
+[2020-05-14 13:05:17.113] [sharedprocess] [info] Installing extension: kiteco.kite
+[2020-05-14 13:05:17.486] [sharedprocess] [info] Downloaded extension: kiteco.kite /tmp/6a669a0f-8785-4039-9d06-7ca7753b6bd3
+[2020-05-14 13:05:17.634] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.kiteco.kite-0.114.0: kiteco.kite
+[2020-05-14 13:05:17.634] [sharedprocess] [info] Renamed to /root/.vscode/extensions/kiteco.kite-0.114.0
+[2020-05-14 13:05:17.635] [sharedprocess] [info] Installation completed. kiteco.kite
+[2020-05-14 13:05:17.641] [sharedprocess] [info] Extensions installed successfully: kiteco.kite
+[2020-05-14 13:05:54.430] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-05-14 13:06:06.242] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-05-14 13:06:11.302] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/076a6ab6-f840-4647-a78f-3851ab0f86ac
+[2020-05-14 13:06:17.063] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-python.python-2020.5.78807: ms-python.python
+[2020-05-14 13:06:17.063] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.python-2020.5.78807
+[2020-05-14 13:06:17.098] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-05-14 13:06:17.116] [sharedprocess] [info] Extensions installed successfully: ms-python.python

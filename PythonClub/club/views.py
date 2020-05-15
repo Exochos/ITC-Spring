@@ -1,7 +1,18 @@
 from django.http import HttpResponse
 from django.shortcuts import render, get_object_or_404
-from .models import Meeting, Meeting_Minutes,Resources
-
+from django.views.generic import (
+    CreateView,
+    DetailView,
+    ListView,
+    UpdateView,
+    DeleteView
+)
+from .models import (
+    Meeting,
+    Meeting_Minutes,
+    Resources,
+    Event,
+)
 # Return the meetings tab
 def getmeetings(request):
     meeting = Meeting.objects.all()
@@ -16,18 +27,9 @@ def getresources(request):
 def index (request):
     return render(request, 'club/index.html')
 
-# Return the details sub tab
-#def meeting_details(request, id):
-#    obj = get_object_or_404(Meeting, pk=id)
-#    context = {
-#        "title": "Detail",
-#        "object": obj
-#    }
-#    return render(request, 'club/meeting_details.html', context)
-
-def mdetails(request, id):
-    m=get_object_or_404(Meeting, pk=id)
-    context={
-        'm' : m,
+def meeting_details(request, id):
+    obj = get_object_or_404(Meeting, pk=id)
+    context = {
+        "object": obj
     }
-    return render(request, 'mdetails.html', context=context)
+    return render(request, "club/meeting_details.html", context)

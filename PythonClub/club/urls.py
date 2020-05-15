@@ -1,13 +1,14 @@
 from django.urls import path, include
-from . import views
+from .views import (
+    getmeetings,
+    getresources,
+    index,
+    meeting_details
+)
 
 urlpatterns=[
-    path('', views.index, name='index'),
-    path('getmeetings/', views.getmeetings, name='meeting'),
-    path('getresources/', views.getresources, name='resources'),
-    path('mdetails/<int:id>', views.mdetails, name='mdetails')
-    #path('meeting_details/<int:id>', views.meeting_details, name='meeting_details'),
+    path('', index, name='index'),
+    path('getmeetings/', getmeetings, name='meeting'),
+    path('getresources/', getresources, name='resources'),
+    path('meeting_details/<int:id>', meeting_details, name='meeting_details'),
 ]
-
-
-

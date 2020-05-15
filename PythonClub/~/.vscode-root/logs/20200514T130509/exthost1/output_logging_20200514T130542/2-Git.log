@@ -1,0 +1,858 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/jeremy/Desktop/PythonClub/ITC-Spring
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/details.html
+> git cat-file -s df8d69e95818d676a206dd96704b083607ce9e5c
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/mdetails.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/mdetails.html
+> git cat-file -s a6b0c7687a878fb785a6cf478392b58d65b700ec
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/mdetails.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/mdetails.html
+> git cat-file -s a6b0c7687a878fb785a6cf478392b58d65b700ec
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/resources.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/resources.html
+> git cat-file -s 82936fcc5c2f17d95732a82adb19782152440752
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/base.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/base.html
+> git cat-file -s 89eae56186299aa72766e597a9219c1395e6ead1
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/base.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/base.html
+> git cat-file -s 89eae56186299aa72766e597a9219c1395e6ead1
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/resources.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/resources.html
+> git cat-file -s 82936fcc5c2f17d95732a82adb19782152440752
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git rev-list --left-right master...refs/remotes/origin/master
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/details.html
+> git cat-file -s df8d69e95818d676a206dd96704b083607ce9e5c
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :PythonClub/PythonClub/settings.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/PythonClub/settings.py
+> git cat-file -s 3a159540ad36b4e454d46541659f6b651ce133ef
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/models.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/models.py
+> git cat-file -s 0e162905dac0a360e0467f5663a86cdb5ff80c4b
+> git show :PythonClub/club/admin.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/admin.py
+> git cat-file -s ab5d99c9cdb2c59e8c35bfcfa4948f9dcecccd8f
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/templates/base.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/base.html
+> git cat-file -s 89eae56186299aa72766e597a9219c1395e6ead1
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git check-ignore -v -z --stdin
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :PythonClub/club/templates/club/details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/details.html
+> git cat-file -s df8d69e95818d676a206dd96704b083607ce9e5c
+> git show :PythonClub/club/templates/club/index.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/index.html
+> git cat-file -s 94713f5da5f7359daceb3c571f7ff3ddd2a2643e
+> git show :PythonClub/club/templates/club/mdetails.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/mdetails.html
+> git cat-file -s a6b0c7687a878fb785a6cf478392b58d65b700ec
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/resources.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/resources.html
+> git cat-file -s 82936fcc5c2f17d95732a82adb19782152440752
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/resources.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/resources.html
+> git cat-file -s 82936fcc5c2f17d95732a82adb19782152440752
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/club/urls.py
+> git cat-file -s 8299f11dda97216ab8aa8c868a2b318777ef2e38
+> git show :PythonClub/club/club.urls
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/club.urls
+> git cat-file -s 792d6005489ebee62cde02066f19c5521e620451
+> git show :PythonClub/club/models.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/models.py
+> git cat-file -s 0e162905dac0a360e0467f5663a86cdb5ff80c4b
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/models.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/models.py
+> git cat-file -s 0e162905dac0a360e0467f5663a86cdb5ff80c4b
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/models.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/models.py
+> git cat-file -s 0e162905dac0a360e0467f5663a86cdb5ff80c4b
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/templates/club/meeting.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting.html
+> git cat-file -s 8750fd6c98ee39bc7482ada7d86bc560efacbd52
+> git show :PythonClub/club/urls.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/urls.py
+> git cat-file -s 7b0c58ed14d61c23070fc4eb6b35ceeb745eb8fd
+> git show :PythonClub/club/views.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/views.py
+> git cat-file -s 46233caf809ed8d33e1b7c76222e3b034d9662c2
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :PythonClub/club/models.py
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/models.py
+> git cat-file -s 0e162905dac0a360e0467f5663a86cdb5ff80c4b
+> git show :PythonClub/club/templates/club/meeting_details.html
+> git ls-files --stage -- /home/jeremy/Desktop/PythonClub/ITC-Spring/PythonClub/club/templates/club/meeting_details.html
+> git cat-file -s 80e56bad7abfefa27e9f6db27adea91171a60575
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

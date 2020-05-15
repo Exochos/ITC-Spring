@@ -1,6 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
-##<h2> {{ meets.meeting_title }}</h2>
-#<p> Meeting Name: {{ meeting.meeting_title }}</p>
-<h2>Test</h2>>
+
+
+
+<h2> Meeting Title: {{ object.meeting_title  }} </h2>
+<p> Date: {{ object.meeting_date  }} </p>
+<p> Location: {{ object.meeting_location  }} </p>
+<p> Time: {{ object.meeting_time }} </p>
+<p> Location: {{ object.meeting_location }} </p>
+<p> Agenda: {{ object.meeting_agenda }} </p>
+<p> Meeting ID: {{ object.meeting_id }} </p>
+
 {% endblock%}

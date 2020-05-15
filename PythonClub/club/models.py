@@ -11,7 +11,7 @@ class Meeting(models.Model):
 	meeting_agenda = models.CharField(max_length=250)
 	meeting_id = models.IntegerField(primary_key=True)
 	def _str_(self):
-		return self.name
+		return meeting_title
 	class Meta:
 		db_table='meeting'
 		verbose_name_plural='meeting'
