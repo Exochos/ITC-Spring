@@ -22,7 +22,6 @@ class ResourcesTest(TestCase):
 	def test_tablename(self):
 		self.assertEqual(str(Resources._meta.db_table), 'resources')
 
-
 class EventTest(TestCase):
     def test_stringOutput(self):
         event=Event(event_title='Event Test')

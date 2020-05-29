@@ -13,6 +13,20 @@ from .models import (
     Resources,
     Event,
 )
+from .forms import MeetingForm
+
+def newmeeting(request):
+    form=MeetingForm
+    if request.method=='POST':
+        form=MeetingForm(request.POST)
+        if form.is_valid():
+            post=form.save(commit=True)
+            post.save()
+            form=MeetingForm
+        else:
+            form=MeetingForm()
+    return render(request, 'club/newmeeting.html', {'form': form})
+
 # Return the meetings tab
 def getmeetings(request):
     meeting = Meeting.objects.all()
@@ -27,7 +41,7 @@ def getresources(request):
 def index (request):
     return render(request, 'club/index.html')
 
-def meeting_details(request, id):
+def meeting_details(request,id):
     obj = get_object_or_404(Meeting, pk=id)
     context = {
         "object": obj
