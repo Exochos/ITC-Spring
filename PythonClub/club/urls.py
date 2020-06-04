@@ -4,7 +4,9 @@ from .views import (
     getresources,
     index,
     meeting_details,
-    newmeeting
+    newmeeting,
+    loginmessage,
+    logoutmessage
 )
 
 urlpatterns=[
@@ -13,4 +15,6 @@ urlpatterns=[
     path('getresources/', getresources, name='resources'),
     path('meeting_details/<int:id>', meeting_details, name='meeting_details'),
     path('newmeeting/', newmeeting, name='newmeeting'),
+    path('loginmessage/', loginmessage, name='loginmessage'),
+    path('logoutmessage/', logoutmessage, name='logoutmessage'),
 ]
