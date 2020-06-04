@@ -1,5 +1,6 @@
 from django.test import TestCase
 from club.models import Meeting, Meeting_Minutes, Resources, Event 
+from club.forms import MeetingForm
 
 class MeetingTest(TestCase):
     def test_string(self):
@@ -26,3 +27,9 @@ class EventTest(TestCase):
     def test_stringOutput(self):
         event=Event(event_title='Event Test')
         self.assertEqual(str(event), event.event_title)
+
+class NewMeetingFormTest(TestCase):
+
+    def test_MeetingForm(self):
+        form = MeetingForm(data={'meeting_title':"TestTestTest1", 'meeting_date':"2020-06-04", 'meeting_time':"09:00:00", 'meeting_location':"Home", 'meeting_agenda':"Testing forms", 'meeting_id':"10"})
+        self.assertTrue(form.is_valid())
