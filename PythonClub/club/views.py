@@ -67,7 +67,7 @@ def newMeeting(request):
           if form.is_valid():
                post=form.save(commit=True)
                post.save()
-               #form=MeetingForm()
+               form=MeetingForm()
      else:
           form=MeetingForm()
      return render(request, 'club/newmeeting.html', {'form': form})
